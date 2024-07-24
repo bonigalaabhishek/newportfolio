@@ -86,7 +86,7 @@ const Header = () => {
         <nav>
           <ul>
             <li id='home' ref={homeRef}>
-              <NavLink to="/home">Home</NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li id='projects' ref={projectsRef}>
               <NavLink to="/projects">Projects</NavLink>
@@ -102,7 +102,7 @@ const Header = () => {
         </nav>
  
         <div className="sidebar">
-          <h4 onClick={pauseTl}><NavLink to="/home">Home</NavLink></h4>
+          <h4 onClick={pauseTl}><NavLink to="/">Home</NavLink></h4>
           <hr />
           <h4 onClick={pauseTl}><NavLink to="/projects">Projects</NavLink></h4>
           <hr />

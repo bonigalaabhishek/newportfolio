@@ -61,7 +61,7 @@ useEffect(() => {
     {/* <HomePage/> */}
           {/* <NewNav/>   */}
             <Routes>
-            <Route path='/home' element={<HomePage/>}/>
+            <Route path='/' element={<HomePage/>}/>
             <Route path='/projects' element={<Projects/>}/>
             <Route  path="/about" element={<About/>} />
          
