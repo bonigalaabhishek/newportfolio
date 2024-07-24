@@ -5,7 +5,11 @@ import './index.css'
 import { BrowserRouter } from 'react-router-dom';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+<<<<<<< HEAD
     <BrowserRouter basename="/newportfolio">
+=======
+    <BrowserRouter  basename='/newportfolio'>
+>>>>>>> c016105 ( commit)
     <App />
     </BrowserRouter>
   </React.StrictMode>,
